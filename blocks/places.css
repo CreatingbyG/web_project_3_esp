@@ -1,0 +1,140 @@
+.places{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .place{
+    display: grid;
+    grid-template-columns: 475px 1fr;
+    grid-template-rows: auto 340px auto;
+    grid-gap: 40px;
+    padding-top: 92px;
+    list-style: none;
+    padding-right: 16px;
+  }
+  .place__title{
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    color: #FFF;
+    font-size: 62px;
+    font-family: 'Inter';
+    font-weight: 900;
+    line-height: 1.2;
+  }
+  .place__title-text{
+    margin: 0;
+  }
+  .place__image{
+  height: 460px;
+  width: 460px;
+  grid-column: 1;
+  grid-row: 2;
+  object-fit: cover;
+  }
+  .place__artist{
+    grid-column: 2;
+    grid-row: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #aaa;
+    font-size: 12px;
+    font-family: 'Inter';
+    align-self: end;
+  }
+  .place__person{
+    display: flex;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Inter';
+    line-height: 22px;
+    text-transform: none;
+    padding-top: 8px;
+  }
+  .place__text{
+    margin: 0;
+    grid-column: 2;
+    grid-row: 2;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Inter';
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  .button{
+    border-radius: 4px;
+    background-color: #0278fe;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 20px;
+  }
+  .button:hover{
+    opacity: .7;
+    transition: 5s ease-in-out forwards;
+    background-color: #0063D2;
+  }
+  .button__place{
+    grid-column: 1;
+    grid-row: 6;
+    width: 400px;
+    height: 32px;
+  }
+  .buy-link{
+    text-decoration: none;
+    color: #FFF;
+  }
+  @media screen and (max-width : 1024px){
+    .place{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 460px auto;
+      grid-gap: 1rem;
+    }
+    .place__text{
+    font-size: 1rem;
+    grid-row: 2/4;
+  }
+  .place__title-text{
+    font-size: 2.5rem;
+    width: 50%;
+  }
+  .button__place{
+    grid-column: 1;
+    grid-row: auto;
+    height: 32px;
+    margin: 0;
+    width: 90%;
+  }
+}
+@media screen and (max-width : 767px){
+  .places{
+    margin-top: 62px;
+  }
+  .place{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .place__title{
+    margin: 16px;
+  }
+  .place__image{
+    height: 320px;
+    width: 100%;
+  }
+  .place__artist{
+    align-self: baseline;
+    margin: 0 16px;
+  }
+  .place__text{
+    margin: 0 16px;
+  }
+  .button__place{
+    margin: 0 16px;
+    font-size: 16px;
+    width: auto;
+  }
+}
