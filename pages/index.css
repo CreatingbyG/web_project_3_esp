@@ -414,7 +414,7 @@ body{
       font-size: 2.5rem;
       width: 50%;
     }
-    .button__place{
+    .button_place{
       grid-column: 1;
       grid-row: auto;
       height: 32px;
