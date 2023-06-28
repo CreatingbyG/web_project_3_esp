@@ -1,19 +1,15 @@
-# Proyecto 4: De patria a patria
+# De patria a patria
 ### Descripción general    
-* Introducción  
-* Figma  
-* Imágenes  
+* Ciudades / Galeria. 
+* Descripciones.  
+* Footer con link para visitarnos y comprar la galeria. 
+
+## *¿QUE ENCONTRARAS EN DE PATRIA A PATRIA?*      
+ Este es un proyecto que muestra las ciudades natales de algunos de los empleados de Practicum. Consta de 4 ciudades para con los empleados de Practicum, cada ciudad tiene una descripcion especifica hecha por los natales, asi como tambien un boton con un "link" anidado para la comrpar de esa galeria en forma de NTF. La utlima galeria es de su servidor (estudiante de Practicum).    
   
-**Introducción**    
-  
-Este es un proyecto que muestra las ciudades natales de algunos de los empleados de Practicum. Lo hemos diseñado de tal modo que todos los elementos se muestren correctamente en los tamaños de pantalla más habituales. Recomendamos invertir más tiempo en completar este proyecto, ya que es más difícil que los anteriores.     
-  
-**Figma**  
-  
-* [Enlace al proyecto en Figma](https://www.figma.com/file/ZW8wxTYTZH2czTTfDMVHWq/WEB%2C-Sprint-3-%3A-De-patria-a-patria-%7C-desktop-%2B-mobile?node-id=0%3A1)  
-  
-**Imágenes**  
-  
-A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido.   
-  
-¡Mucha suerte y que te lo pases bien! 
+## *CONSTRUIDO CON:*  
+* HTML5  
+* CSS5
+
+## *¿COMO DESPLEGAR LA PAGINA WEB?*
+Para el despliegue de la pagina, debes tener un navegador (o navegadores) instalados en tu dispositivo local, posterior a ello, descargar el archivo ZIP de mi repositorio y una vez almacenado en tu carpeta local, podras abrirlo con el navegador de tu preferencia. O simplemente visitar estos "links": https://main--cheerful-daifuku-a86ff6.netlify.app/ (netlifyAPP) o https://creatingbyg.github.io/web_project_3_esp/ (suele tener problemas de visualizacion). 
