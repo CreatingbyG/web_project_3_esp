@@ -86,7 +86,7 @@
     text-decoration: none;
     color: #FFF;
   }
-  @media screen and (max-width : 1024px){
+  @media screen and (max-width: 1024px){
     .place{
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -109,7 +109,7 @@
     width: 90%;
   }
 }
-@media screen and (max-width : 767px){
+@media screen and (max-width: 767px){
   .places{
     margin-top: 62px;
   }

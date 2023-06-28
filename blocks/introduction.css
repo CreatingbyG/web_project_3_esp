@@ -42,7 +42,7 @@
     margin: 0;
     padding-top: 42px;
   }
-  @media screen and (max-width : 1024px){
+  @media screen and (max-width: 1024px){
     .introduction{
       padding-top: 55px;
       display: flex;

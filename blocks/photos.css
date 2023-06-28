@@ -7,7 +7,7 @@
     grid-template-rows: 1fr 1fr;
     grid-gap: 16px;
   }
-  @media screen and (max-width : 1279px){
+  @media screen and (max-width: 1279px){
     .photos{
       display: grid;
       grid-template-columns: repeat(2, auto);
@@ -45,7 +45,7 @@
       height: 264px;
     }
   }
-  @media screen and (max-width : 950px){
+  @media screen and (max-width: 950px){
     .photos{
       grid-template-columns: repeat(2, auto);
       grid-template-rows: auto auto auto;
@@ -87,7 +87,7 @@
     }
   }
 
-  @media screen and (max-width : 767px){
+  @media screen and (max-width: 767px){
     .photos{
       display: flex;
       flex-direction: column;
