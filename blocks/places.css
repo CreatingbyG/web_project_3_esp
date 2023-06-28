@@ -76,7 +76,7 @@
     transition: 5s ease-in-out forwards;
     background-color: #0063D2;
   }
-  .button__place{
+  .button_place{
     grid-column: 1;
     grid-row: 6;
     width: 400px;
@@ -101,7 +101,7 @@
     font-size: 2.5rem;
     width: 50%;
   }
-  .button__place{
+  .button_place{
     grid-column: 1;
     grid-row: auto;
     height: 32px;
@@ -132,7 +132,7 @@
   .place__text{
     margin: 0 16px;
   }
-  .button__place{
+  .button_place{
     margin: 0 16px;
     font-size: 16px;
     width: auto;

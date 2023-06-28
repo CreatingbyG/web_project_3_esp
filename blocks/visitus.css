@@ -29,7 +29,7 @@
     flex-direction: column;
     text-align: center;
   }
-  .button__visitus{
+  .button_visitus{
     color: #FFF;
   }
   .visitus:hover{
