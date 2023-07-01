@@ -1,0 +1,17 @@
+.visitus__title{
+    color: #fffdfd;
+    font-size: 72px;
+    font-family: 'Inter', Arial, sans-serif;;
+    font-weight: 900;
+    line-height: 76px;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 768px){
+    .visitus__title{
+      font-size: 32px;
+      font-family: 'Inter', Arial, sans-serif;;
+      font-weight: 900;
+      line-height: 35px;
+    }
+  }

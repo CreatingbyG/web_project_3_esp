@@ -1,0 +1,18 @@
+.visitus__text{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Inter', Arial, sans-serif;;
+    font-weight: 400;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+@media screen and (max-width: 768px){
+    .visitus__text{
+      font-size: 14px;
+      font-family: 'Inter', Arial, sans-serif;;
+      line-height: 16px;
+    }
+  }

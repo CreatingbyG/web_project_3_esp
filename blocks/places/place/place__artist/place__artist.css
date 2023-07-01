@@ -1,0 +1,17 @@
+.place__artist{
+    grid-column: 2;
+    grid-row: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #aaa;
+    font-size: 12px;
+    font-family: 'Inter', Arial, sans-serif;;
+    align-self: end;
+  }
+
+  @media screen and (max-width: 767px){
+    .place__artist{
+      align-self: baseline;
+      margin: 0 16px;
+    }
+}

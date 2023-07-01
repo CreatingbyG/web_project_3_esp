@@ -1,0 +1,10 @@
+.place__title-text{
+    margin: 0;
+  }
+
+  @media screen and (max-width: 1024px){
+    .place__title-text{
+        font-size: 2.5rem;
+        width: 50%;
+      }
+    }

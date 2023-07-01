@@ -1,0 +1,31 @@
+.visitus{
+  background-image: url("/images/__background\ \(1\).jpg");
+  margin-top: 92px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 740px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.visitus:hover{
+  background-color: #2a2c2f;
+  opacity: .3;
+  transition: 5s ease-in-out forwards;
+}
+@media screen and (min-width: 950px) {
+  .visitus{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 768px){
+  .visitus{
+    width: auto;
+    height: 254px;
+  }
+}
