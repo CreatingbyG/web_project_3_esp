@@ -1,15 +1,15 @@
-.introduction__title{
-    color: #FFF;
-    font-size: 54px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: 900;
-    line-height: 58px;
-    }
+.introduction__title {
+  color: #fff;
+  font-size: 54px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 900;
+  line-height: 58px;
+}
 
-    @media screen and (max-width: 1024px) {
-    .introduction__title{
-        margin: 0;
-        padding-right: 16px;
-        padding-left: 16px;
-        }
-    }
+@media screen and (max-width: 1024px) {
+  .introduction__title {
+    margin: 0;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

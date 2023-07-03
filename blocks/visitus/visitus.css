@@ -1,4 +1,4 @@
-.visitus{
+.visitus {
   background-image: url("/images/__background\ \(1\).jpg");
   margin-top: 92px;
   background-repeat: no-repeat;
@@ -11,20 +11,19 @@
   align-items: center;
   justify-content: center;
 }
-.visitus:hover{
+.visitus:hover {
   background-color: #2a2c2f;
-  opacity: .3;
+  opacity: 0.3;
   transition: 5s ease-in-out forwards;
 }
 @media screen and (min-width: 950px) {
-  .visitus{
+  .visitus {
     width: 100%;
   }
-  
 }
 
-@media screen and (max-width: 768px){
-  .visitus{
+@media screen and (max-width: 768px) {
+  .visitus {
     width: auto;
     height: 254px;
   }
