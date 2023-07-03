@@ -1,4 +1,4 @@
-.place_button {
+.place__button {
   grid-column: 1;
   grid-row: 6;
   width: 400px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place_button {
+  .place__button {
     grid-column: 1;
     grid-row: auto;
     height: 32px;
@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .place_button {
+  .place__button {
     margin: 0 16px;
     font-size: 16px;
     width: auto;
